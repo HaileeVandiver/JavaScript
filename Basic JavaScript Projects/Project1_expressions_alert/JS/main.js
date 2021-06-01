@@ -4,4 +4,4 @@ var mother = mother.fontcolor("purple");
 var brotherOne = brotherOne.fontcolor("black");
 var brotherTw0 = brotherTwo.fontcolor("red")
 document.write(daughter + mother);// return daughter and mother 
-winodws.alert("Hailee made dis")
+window.alert("Hailee made dis");
