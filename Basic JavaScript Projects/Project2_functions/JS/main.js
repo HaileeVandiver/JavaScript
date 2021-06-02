@@ -10,3 +10,7 @@ function myFunction() { //name the function
     sentence += " a lot from this book"; // concatenation
     document.getElementById("Concatenate").innerHTML=sentence;// call the element 
 }
+
+function addition(p1, p2) {
+    return p1 + p2;
+}
