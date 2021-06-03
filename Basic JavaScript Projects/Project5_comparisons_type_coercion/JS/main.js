@@ -33,3 +33,12 @@ console.log(2 + 2);
 console.log(5 > 10);
 console.log(10 > 5);
 
+//ternary operator
+document.write(Bigger = (5 >1) ? "Left number is bigger": "Right number is bigger");
+
+function Ride_Function() {
+    var Height, Can_ride;
+    Height = document.getElementById("Height").nodeValue; 
+    Can_ride = (Height < 52) ? "You're too short" : "You are tall enough"; 
+    document.getElementById("Ride").innerHTML = Can_ride + " to ride.";
+}
