@@ -1,76 +1,74 @@
-body {
-    background-color: #efefef;
-}    
-
-div {
-    font-family: Tahoma, sans-serif;
+html {
+	font-family: arial;
 }
 
-h1, h3 {
-    font-family: Geneva, Verdana, sans-serif;
-    color: darkred;
+body {
+	background:rosybrown;
 }
 
 h1 {
-    text-align: center;
+	margin: 0 0px 0 122px;
+	color: #5DADE2;
+	text-shadow: .5px .5px 1px #ff6b6b;
+}
+
+h3 {
+	color: #5DADE2;
+	text-shadow: .5px .5px 1px #ff6b6b;
 }
 
 #menuBG {
-    width: 400px;
-    height: 470px;
-    margin: 10px auto;
+	width: 600px;
+	height: 470px;
+	margin: 10px auto;
 }
 
 #frmMenu {
-    width: 400px;
-    height: 200px;
-}
-
-.left {
-    width: 200px;
-    height: 200px;
-    float: left;
-}
-
-.right {
-    width: 200px;
-    height: 200px;
-    float: right;
-}
-
-.middle {
-    width: 200px;
-    height: 200px;
-    float: left;
-}
-
-#showText {
-    width: 200px;
-    height: 190px;
-    margin: 0 auto;
-    float: left;
+	width: 600px;
+	height: 250px;
 }
 
 #totalPrice {
-    width: 200px;
-    height: 190px;
-    margin: 0px auto;
-    float: left;
+	width: 200px;
+	height: 190px;
+	margin: 0 auto;
+	float: right;
+}
+
+.left {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+.center {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+.right {
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+#showText {
+	width: 300px;
+	height: 190px;
+	margin: 0px auto;
+	float: none;
 }
 
 #cart {
-    top: 0;
-    margin: 0px auto;
-    width: 400px;
-    height: 200px;   
+	top: 0;
+	margin: 0px auto;
+	width: 400px;
+	height: 200px;
 }
 
 #btnOrder {
-    margin: 10px 0px 0px 100px;
-    width: 100px;
-    height: 40px;
-    cursor: pointer;
-    background-color: darkred;
-    color: bisque;font-weight: bold;
-    border: 1px solid black;
+	margin: 10px 0px 0px 207px;
+	width: 100px;
+	height: 40px;
 }

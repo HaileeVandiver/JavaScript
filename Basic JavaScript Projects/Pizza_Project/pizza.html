@@ -1,53 +1,50 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-    <head> 
-        <title> Pizza Time</title>
-        <META http-equiv="Content-Type" CONTENT="text/html; charset=UTF-8"> 
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <script src="Pizza_JavaScript/Pizza.js" defer></script>
-        <link rel="stylesheet" type="text/css" href="Pizza_CSS/Pizza.css"/>
-    </head>
-    <body>
-        <div id="menuBG">
-            <h1 style="margin: 0 0px 20px;"> Pizza Drill Tutorial</h1>
-            <input id="btnOrder" type="button" onclick="getReceipt()" value="Place Order">
-            <form id="frmMenu"> 
-                <div class="menu left"> 
-                    <h3>Size:</h3>
-                    <input class="size" type="radio" name="Size" value="Personal Pizza"> Personal Pizza <br>
-                    <input class="size" type="radio" name="Size" value="Medium Pizza"> Medium Pizza <br>
-                    <input class="size" type="radio" name="Size" value="Large Pizza"> Large Pizza <br>
-                    <input class="size" type="radio" name="Size" value="Extra Large Pizza"> Extra Large Pizza <br>
-                    <input class="size" type="radio" name="Size" value="Gargantuan"> Gargantuan <br>
-        
-                </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>pizza time!</title>
+	<meta name="description" content="pizza ordering menu">
+	<meta name="author" content="rhodri_thomas">
+	<link rel="stylesheet" type="text/css" href="Pizza_CSS/Pizza.css">
+</head>
+<body>
+	<div id="menuBG">
+		<h1>Pizza Pizza Pizza</h1>
+		<input id="btnOrder" type="button" onclick="getReciept()" value="Place Order">
+		<form id="frmMenu">
+			<div class="menu left">
+				<h3>Size:</h3>
+				<input type="radio" name="Size" class="size" value="Personal Pizza">Personal<br>
+				<input type="radio" name="Size" class="size" value="Medium Pizza">Medium<br>
+				<input type="radio" name="Size" class="size" value="Large Pizza">Large<br>
+				<input type="radio" name="Size" class="size" value="Extra Large Pizza">Extra Large<br>
+				<input type="radio" name="Size" class="size" value="Gargatuan Pizza">Gargantuan<br>
+			</div>
 
-                <div class="menu right"> 
-                    <h3> Meats:</h3>
-                    <input class="toppings" type="checkbox" name="Topping" value="Pepperoni">Pepperoni<br>
-                    <input class="toppings" type="checkbox" name="Topping" value="Sausage">Sausage<br>
-                    <input class="toppings" type="checkbox" name="Topping" value="Prosciutto">Prosciutto<br>
-                    <input class="toppings" type="checkbox" name="Topping" value="Ham">Ham<br>
-                    <input class="toppings" type="checkbox" name="Topping" value="Barbecue Chicken">Barbecue Chicken<br>
-                    <input class="toppings" type="checkbox" name="Topping" value="Salami">Salami<br>
+			<div class="menu center">
+				<h3>Veggies:</h3>
+				<input type="checkbox" name="veg" class="vegs" value="mushrooms">Mushrooms<br>
+				<input type="checkbox" name="veg" class="vegs" value="onions">Onions<br>
+				<input type="checkbox" name="veg" class="vegs" value="bell peppers">Bell Peppers<br>
+				<input type="checkbox" name="veg" class="vegs" value="Potato">Potato<br>
+				<input type="checkbox" name="veg" class="vegs" value="olives">Olives<br>
+			</div>
 
-                </div>
+			<div class="menu right">
+				<h3>Meats:</h3>
+				<input type="checkbox" name="Topping" class="toppings" value="Pepperoni">Pepperoni<br>
+				<input type="checkbox" name="Topping" class="toppings" value="Sausage">Sausage<br>
+				<input type="checkbox" name="Topping" class="toppings" value="Prosciutto">Prosciutto<br>
+				<input type="checkbox" name="Topping" class="toppings" value="Salami">Salami<br>
+				<input type="checkbox" name="Topping" class="toppings" value="Bacon">Bacon<br>
+			</div>
 
-                <div class="menu middle"> 
-                    <h3> Veggies: </h3>
-                    <input class="toppings" type="checkbox" name="Topping" value="Mushroom"> Mushroom <br>
-                    <input class="toppings" type="checkbox" name="Topping" value="Olive"> Olive <br>
-                    <input class="toppings" type="checkbox" name="Topping" value="Bell Pepper"> Bell Pepper <br>
-                    <input class="toppings" type="checkbox" name="Topping" value="Onion"> Onion <br>
-                    <input class="toppings" type="checkbox" name="Topping" value="Jalepeno"> Jalepeno <br>
-                </div>
-                <div id="cart">
-                    <div id="cart">
-                        <div id="showText"></div>
-                        <div if="totalPrice"></div>
-                    </div>
-                </div>
-            </form>
-        </div> 
-    </body> 
+			<div id="cart">
+				<div id="showText"></div>
+				<div id="totalPrice"></div>
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="Pizza_JavaScript/Pizza.js"></script>
+</body>
 </html>
