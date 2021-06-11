@@ -16,23 +16,17 @@ h1 {
 }
 
 #menuBG {
-    width: 600px;
+    width: 400px;
     height: 470px;
     margin: 10px auto;
 }
 
 #frmMenu {
-    width: 600px;
+    width: 400px;
     height: 200px;
 }
 
 .left {
-    width: 200px;
-    height: 200px;
-    float: left;
-}
-
-.middle {
     width: 200px;
     height: 200px;
     float: left;
@@ -44,30 +38,35 @@ h1 {
     float: right;
 }
 
+.middle {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
 #showText {
-    width: 300px;
+    width: 200px;
     height: 190px;
     margin: 0 auto;
     float: left;
 }
 
 #totalPrice {
-    width: 300px;
+    width: 200px;
     height: 190px;
-    margin: 20px auto;
-    float: right;
+    margin: 0px auto;
+    float: left;
 }
 
 #cart {
     top: 0;
     margin: 0px auto;
-    width: 600px;
+    width: 400px;
     height: 200px;   
 }
 
 #btnOrder {
-    margin: 10px auto;
-    display: block;
+    margin: 10px 0px 0px 100px;
     width: 100px;
     height: 40px;
     cursor: pointer;
