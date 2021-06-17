@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8">
+        <title>Phone number Submission</title> 
+        <link rel= "stylesheet" href="css/phone.css">
+<body>
+
+    <script> 
+    function validateForm() {
+        var x = document.forms["phoneForm"]["phoneNumber"].value;
+        if(x == "") {
+            alert("Please only enter numbers");
+            return false;
+        }
+    }
+    function openForm() {
+    document.getElementById("phoneForm").style.display = "block";
+}
+
+function closeForm(){
+    document.getElementById("phoneForm").style.display = "none";
+}
+    </script>
+
+   
+<button class="open-button" onclick="openForm()">Open Form</button>
+
+<div class="form-popup" id="phoneNumber>
+  <form action="#" class="form-container">
+    <h1>Membership</h1>
+
+    <label for="phoneNumber"><b>phoneNumber</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+        
+
+
+
+</body> 
+</html> 
